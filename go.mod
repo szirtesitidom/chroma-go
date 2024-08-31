@@ -1,4 +1,4 @@
-module github.com/amikos-tech/chroma-go
+module github.com/szirtesitidom/chroma-go
 
 go 1.21
 

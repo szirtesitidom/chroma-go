@@ -7,8 +7,8 @@ import (
 	"io"
 	"net/http"
 
-	ccommons "github.com/amikos-tech/chroma-go/pkg/commons/cohere"
-	"github.com/amikos-tech/chroma-go/types"
+	ccommons "github.com/szirtesitidom/chroma-go/pkg/commons/cohere"
+	"github.com/szirtesitidom/chroma-go/types"
 )
 
 const (

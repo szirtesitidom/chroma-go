@@ -17,8 +17,8 @@ import (
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
 
-	chromago "github.com/amikos-tech/chroma-go"
-	"github.com/amikos-tech/chroma-go/pkg/rerankings"
+	chromago "github.com/szirtesitidom/chroma-go"
+	"github.com/szirtesitidom/chroma-go/pkg/rerankings"
 )
 
 func TestRerankHFEI(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/amikos-tech/chroma-go/types"
+	"github.com/szirtesitidom/chroma-go/types"
 )
 
 type OllamaClient struct {
