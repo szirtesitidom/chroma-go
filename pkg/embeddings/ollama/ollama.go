@@ -55,9 +55,9 @@ func (c *OllamaClient) createEmbedding(ctx context.Context, req *CreateEmbedding
 	}
 	var url string
 	if !strings.HasSuffix(c.BaseURL, "/") {
-		url = c.BaseURL + "/api/embeddings"
+		url = c.BaseURL + "/api/embed"
 	} else {
-		url = c.BaseURL + "api/embeddings"
+		url = c.BaseURL + "api/embed"
 	}
 
 	httpReq, err := http.NewRequestWithContext(ctx, "POST", url, bytes.NewBufferString(reqJSON))
